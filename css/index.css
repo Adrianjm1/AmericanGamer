@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+      
+
+    .cartas .row{
+        display: flex;
+        float: left;
+        width: 42%;
+
+  }
+  nav .nav-wrapper  {
+    background: rebeccapurple;
+  }
+  .brand-logo{
+    font-weight: 900;
+    margin-left: 30px;
+  }
+
+  .acercade{
+      height: 350px;
+  }
+
+  .acercade p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70%;
+}
+
+
+  .acercade h2 {
+      text-align: center;
+  }
+
+  .cartas{
+    background: rgb(65, 34, 122);
+  }
+  .secCartas span {
+    text-align: center;
+    justify-content: center;
+  }
+  .secCartas img {
+    width: 80px;
+    height: 80px;
+    border-radius: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .card {
+    height: 300px;
+    width: 300px;
+    border: solid black 2px;
+    background: rgb(124, 75, 216);
+  }
+
+
+  .secCartas p {
+   text-align: justify;
+     }
+
+  .secCartas h2{
+    text-align: center;
+  }
+
+
+  .importancia{
+    height: auto;
+    }
+
+    .importancia h2 {
+        text-align: center;
+    }
+
+    .importancia p{
+
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      width: 70%;
+  }
+
+  .texto{
+    height: 300px;
+  }
+  .tituloContact{
+    font-weight: 1200;
+    text-align: center;
+  }
+
+
+  .page-footer .container {
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 18px;
+    font-weight: 900;
+  }
