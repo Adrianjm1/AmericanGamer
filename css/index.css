@@ -69,6 +69,7 @@ body {
      }
 
   .secCartas h2{
+    color: azure;
     text-align: center;
   }
 
@@ -106,4 +107,17 @@ body {
     display: block;
     font-size: 18px;
     font-weight: 900;
+  }
+
+  @media (max-width: 600px) {
+
+    .cartas .row{
+        display: flex;
+        float: none;
+        width: 42%;
+
+
+
+}
+    
   }
